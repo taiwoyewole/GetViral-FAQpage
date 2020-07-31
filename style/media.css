@@ -40,10 +40,7 @@
     .desktop-img {
         margin-top: 0;
     }
-    .navbar {
-        padding-left: 15px !important;
-        padding-right: 15px !important;
-    }
+   
     #sec-one h1, #sec-three h2 {
         font-size: 50px;
         line-height: 63px;
@@ -84,7 +81,7 @@
         font-size: 21px;
     }
     form .btn, form .btn:hover {
-        font-size: 18px;
+        /* font-size: 18px; */
         padding: .5rem 1.5rem;
     }
     #footer h4 {

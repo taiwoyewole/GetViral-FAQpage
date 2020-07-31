@@ -178,6 +178,7 @@ body {
     left: 8px;
     }
 
+
 .navbar-dark .navbar-nav .nav-link {
     font-size: 18px;
     line-height: 23px;
@@ -203,6 +204,9 @@ button:focus {
 }
 
 /* Accordion */
+.accordion .card-header {
+    cursor: pointer;
+}
 .accordion .card-header:after {
     font-family: 'FontAwesome';  
     content: "\002D";
@@ -254,6 +258,10 @@ button:focus {
     line-height: 2.375rem;
     text-align: center;
     pointer-events: none;
+    color: #fff;
+}
+
+.search::placeholder {
     color: #fff;
 }
 
