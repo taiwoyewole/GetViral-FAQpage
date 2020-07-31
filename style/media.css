@@ -31,9 +31,7 @@
     #sec-three .row {
         margin: 3rem 0;
     }
-    #sec-three .col-md-6 {
-        padding: 0;
-    }
+
     #footer .col-md-6 {
         margin-bottom: 1rem;
     }
@@ -49,9 +47,6 @@
     #sec-one h1, #sec-three h2 {
         font-size: 50px;
         line-height: 63px;
-    }
-    .container-fluid, .container {
-        padding: 0 15px !important;
     }
 }
 
