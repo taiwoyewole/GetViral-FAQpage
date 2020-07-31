@@ -1,18 +1,18 @@
 @media screen and (min-width: 700px) {
     .navbar {
-        padding-top: 2.5rem !important;
+        padding: 1.5rem 0 !important;
     }
     .nav-item .btn {
         margin: 0 !important;
     }
     .navbar-dark .navbar-nav .nav-link {
-        padding: .5rem 1rem;
+        padding: .5rem;
     }
     .mobile-img {
         display: none;
     }
     .desktop-img {
-        display: flex;
+        display: block;
         margin-top: 15%;
     }
     #sec-one h1, #sec-one p {
@@ -32,11 +32,17 @@
         margin: 3rem 0;
     }
 
+    #footer {
+        padding: 3rem 2.5rem!important;
+    }
     #footer .col-md-6 {
         margin-bottom: 1rem;
     }
 }
 @media screen and (min-width: 1000px) {
+    .navbar-dark .navbar-nav .nav-link {
+        padding: .5rem 1rem;
+    }
     .desktop-img {
         margin-top: 0;
     }
